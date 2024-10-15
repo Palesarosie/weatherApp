@@ -34,11 +34,11 @@ footer {
 .temp {
   font-weight: bold;
   font-size: 88px;
-  line-height:88px;
+  line-height: 88px;
 }
 .weather-app-icon {
   width: 88px;
-  height:88px;
+  height: 88px;
 }
 .unit {
   margin-top: 6px;
@@ -81,4 +81,32 @@ p {
 }
 #temperature {
   display: flex;
+}
+.weather-forecast-date {
+  text-align: center;
+  color: #808080;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.weather-forecast-icon {
+  width: 88px;
+  display: block;
+  height: 88px;
+  margin: 0 auto;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #006400;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 }
